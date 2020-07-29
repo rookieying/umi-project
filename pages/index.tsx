@@ -82,9 +82,6 @@ export default () => {
               <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide1" />
               <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide2" />
               <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide3" />
-              <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide4" />
-              <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide5" />
-              <img src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide6" />
             </Carousel>
           </div>
         </div>
@@ -95,14 +92,38 @@ export default () => {
           </div>
           <div className={styles.teseright}>
             <div>
-              <div className={styles.block1}><img src={img1} alt="" /></div>
-              <div className={styles.block2}><img src={img2} alt="" /></div>
-              <div className={styles.block3}><img src={img3} alt="" /></div>
+              <div className={styles.block1}>
+                1
+                <h4>市场领先的数据与数据流</h4>
+                <p>我们的实时市场数据流能以最适合您工作流程的方式提供您所需的任何数据。</p>
+              </div>
+              <div className={styles.block2}>
+                2
+                <h4>实时与非实时数据</h4>
+                <p>访问实时和非实时数据，包括广泛的tick histoyr、基本面、定价、和参考数据。</p>
+              </div>
+              <div className={styles.block3}>
+                3
+                <h4>低延迟数据传送</h4>
+                <p>通过低延迟数据流、迅速获得来自数千个交易所和场外交易市场的实时数据。</p>
+              </div>
             </div>
             <div>
-              <div className={styles.block4}><img src={img4} alt="" /></div>
-              <div className={styles.block5}><img src={img5} alt="" /></div>
-              <div className={styles.block6}><img src={img6} alt="" /></div>
+              <div className={styles.block4}>
+                4
+                <h4>一致的符号系统</h4>
+                <p>将不同数据类型和资产类别的数据作规范化处理，让您的决策指定过程和分析更清晰。</p>
+              </div>
+              <div className={styles.block5}>
+                5
+                <h4>灵活部署</h4>
+                <p>在本地或者以“即服务”方式部署业界功能强大的软件，用于分发和管理实时市场数据。</p>
+              </div>
+              <div className={styles.block6}>
+                6
+                <h4>开发者支持</h4>
+                <p>利用我们业界领先的专业知识，从我们的API、SDK、工具和数据中获得更多价值。</p>
+              </div>
             </div>
           </div>
         </div>
@@ -112,9 +133,18 @@ export default () => {
             <h3>数据平台为企业提供的应用</h3>
           </div>
           <div className={styles.showright}>
-            <div className={styles.block1}><img src={zhuli} alt="" /></div>
-            <div className={styles.block2}><img src={chuangjian} alt="" /></div>
-            <div className={styles.block3}><img src={kaifa} alt="" /></div>
+            <div className={styles.block1}>
+              <h2>助力企业，连接全球市场</h2>
+              <p>使用来自全球各个市场的高速数据、机器可读数据和新闻，发挥您的竞争优势。</p>
+            </div>
+            <div className={styles.block2}>
+              <h2>创建您的数据愿景，我们会祝您实现</h2>
+              <p>通过部署Elektron as a Service提高您的灵活性、速度和成本效益。随着业务的发展，您将能够更好地应对和利用新机会。</p>
+            </div>
+            <div className={styles.block3}>
+              <h2>开发者社区支持</h2>
+              <p>加入我们不断发展的开发者社区，学习如何充分利用我们的数据和API。您还可以从与专家和更广泛社区的交流和讨论中受益。</p>
+            </div>
           </div>
         </div>
         <div id="huode" className={styles.huode}>
@@ -123,9 +153,21 @@ export default () => {
             <h3>我们获评的奖项</h3>
           </div>
           <div className={styles.huoderight}>
-            <div className={styles.block1}><img src={img2018} alt="" /></div>
-            <div className={styles.block2}><img src={img2017} alt="" /></div>
-            <div className={styles.block3}><img src={img2016} alt="" /></div>
+            <div className={styles.block1}>
+              2018.04
+              <h4>奖项名</h4>
+              <p>最佳数据与信息供应商奖</p>
+            </div>
+            <div className={styles.block2}>
+              2017.01
+              <h4>奖项名</h4>
+              <p>最佳数据与信息供应商奖</p>
+            </div>
+            <div className={styles.block3}>
+              2016.05
+              <h4>奖项名</h4>
+              <p>最佳数据与信息供应商奖</p>
+            </div>
           </div>
         </div>
         <div id="faxian" className={styles.faxian}>
@@ -135,14 +177,32 @@ export default () => {
           </div>
           <div className={styles.faxianright}>
             <div>
-              <div className={styles.block1}><img src={el1} alt="" /></div>
-              <div className={styles.block2}><img src={el2} alt="" /></div>
-              <div className={styles.block3}><img src={el3} alt="" /></div>
+              <div className={styles.block1}>
+                <h4>市场领先的数据与数据流</h4>
+                <p>我们的实时市场数据流能以最适合您工作流程的方式提供您所需的任何数据。</p>
+              </div>
+              <div className={styles.block2}>
+                <h4>实时与非实时数据</h4>
+                <p>访问实时和非实时数据，包括广泛的tick histoyr、基本面、定价、和参考数据。</p>
+              </div>
+              <div className={styles.block3}>
+                <h4>低延迟数据传送</h4>
+                <p>通过低延迟数据流、迅速获得来自数千个交易所和场外交易市场的实时数据。</p>
+              </div>
             </div>
             <div>
-              <div className={styles.block4}><img src={el4} alt="" /></div>
-              <div className={styles.block5}><img src={el5} alt="" /></div>
-              <div className={styles.block6}><img src={el6} alt="" /></div>
+              <div className={styles.block4}>
+                <h4>一致的符号系统</h4>
+                <p>将不同数据类型和资产类别的数据作规范化处理，让您的决策指定过程和分析更清晰。</p>
+              </div>
+              <div className={styles.block5}>
+                <h4>灵活部署</h4>
+                <p>在本地或者以“即服务”方式部署业界功能强大的软件，用于分发和管理实时市场数据。</p>
+              </div>
+              <div className={styles.block6}>
+                <h4>开发者支持</h4>
+                <p>利用我们业界领先的专业知识，从我们的API、SDK、工具和数据中获得更多价值。</p>
+              </div>
             </div>
           </div>
         </div>
@@ -295,6 +355,6 @@ export default () => {
 
       </div>
     </div>
-    
+
   );
 }
