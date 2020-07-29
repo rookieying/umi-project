@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "nuka-carousel": "^4.7.0",
+    "umi": "^3.2.11"
+  }
+}
